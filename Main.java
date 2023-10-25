@@ -45,24 +45,18 @@ public class Main {
         System.out.print("Введите число-действие от 1 до 4 соответственно '+' '-' '*' '/': ");
     }
     public static void sums(int a, int b) {
-
-        int j = a + b;
-        System.out.println("Сумма=  " + j);
+        System.out.println("Сумма=  " + (a + b));
     }
     public static void differences(int a, int b) {
-        int j = a - b;
-        System.out.println("Разность = " + j);
+        System.out.println("Разность = " +  (a - b));
     }
     public static void multipliers(int a, int b) {
-        int j = a * b;
-        System.out.println("Произведение = " + j);
+        System.out.println("Произведение = " + ( a * b));
     }
     public static void divisions(int a, int b) {
-        double j = (double) a / (double) b ;
-                   System.out.println("Частное = " + j);
-
-            }
-        }
+        System.out.println("Частное = " + ((double) a / (double) b));
+    }
+}
 
 
 
